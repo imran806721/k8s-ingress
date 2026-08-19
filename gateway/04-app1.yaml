@@ -52,7 +52,7 @@ spec:
   parentRefs:
     - name: roboshop-gateway
       sectionName: https
-  hostnamess:
+  hostnames:
    - "app1.devops90s.shop"    
 
   rules:
