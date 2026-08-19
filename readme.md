@@ -1,9 +1,9 @@
 1.create OIDC provider
 ``````
-eksctl utils associate-iam-oidc-provider \
-  --region us-east-1 \
-  --cluster roboshop \
-  --approve
+  eksctl utils associate-iam-oidc-provider \
+    --region us-east-1 \
+    --cluster roboshop \
+    --approve
 `````
 
 2.Dowload the IAM policy
