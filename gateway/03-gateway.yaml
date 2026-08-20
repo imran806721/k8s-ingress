@@ -6,10 +6,10 @@ metadata:
 spec:
   gatewayClassName: aws-alb
   infrastructure:
-    parametersRef:
-      group: gateway.k8s.aws
-      kind: LoadBalancerConfiguration
-      name: roboshop-alb
+  parametersRef:
+    group: gateway.k8s.aws
+    kind: LoadBalancerConfiguration
+    name: roboshop-alb
   listeners:
   - name: http
     port: 80
